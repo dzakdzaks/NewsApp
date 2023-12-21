@@ -34,8 +34,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-@Composable
-fun AppNews() {
-
-}

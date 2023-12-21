@@ -15,7 +15,7 @@ class MainViewModel(
     private val fetchNewsUseCase: FetchNewsUseCase
 ) : ViewModel() {
 
-    var job: Job? = null
+    private var job: Job? = null
 
     private val _mainState: MutableStateFlow<MainState> =
         MutableStateFlow(MainState.Loading)
